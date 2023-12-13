@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Sistema_Inventario.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -34,7 +42,7 @@
                                 @*{*@
 								<li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Info General</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Configuracion</a></li>
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Marca" asp-action="Index">Coordinaciones</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Coordinacion" asp-action="Index">Coordinaciones</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Municipios</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Poblaciones</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Sectores</a></li>
@@ -67,6 +75,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            <partial name="_Notificaciones" />
             @RenderBody()
         </main>
     </div>
@@ -79,6 +88,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="~/lib/select2/js/select2.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
