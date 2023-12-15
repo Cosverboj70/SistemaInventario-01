@@ -10,7 +10,11 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
     {
 
         IBodegaRepositorio Bodega { get; }
+        ICategoriaRepositorio Categoria { get; }
         ICoordinacionRepositorio Coordinacion { get; }
+        ITareaRepositorio Tarea { get; }
+        ICodigoFuenteRepositorio CodigoFuente { get; }
+        ITipoRepositorio Tipo { get; }
         //ICategoriaRepositorio Categoria { get; }
 
         //IMarcaRepositorio Marca { get; }

@@ -12,7 +12,12 @@ namespace SistemaInventario.AccesoDatos.Data
 		{
 		}
         public DbSet<Bodega> Bodegas { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Coordinacion> Coordinaciones { get; set; }
+        public DbSet<Tareas> Tareas { get; set; }
+        public DbSet<CodigoFuente> CodigoFuentes { get; set; }
+        public DbSet<Tipo> Tipos { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

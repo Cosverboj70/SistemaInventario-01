@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
     {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\codigoFuente.js",
+      "PackagePath": "staticwebassets\\js\\codigoFuente.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\coordinacion.js",
+      "PackagePath": "staticwebassets\\js\\coordinacion.js"
+    },
+    {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\tarea.js",
+      "PackagePath": "staticwebassets\\js\\tarea.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\tipo.js",
+      "PackagePath": "staticwebassets\\js\\tipo.js"
     },
     {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\lib\\bootstrap\\LICENSE",

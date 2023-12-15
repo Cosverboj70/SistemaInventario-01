@@ -35,22 +35,38 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mantenimiento
+                            </a>
+                            <ul class="dropdown-menu">
+                                @*@if (User.IsInRole(DS.Role_Admin))*@
+                                @*{*@
+								@*<li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Info General</a></li>*@
+                                @*<li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Configuracion</a></li>*@
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Tarea" asp-action="Index">Tareas</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="CodigoFuente" asp-action="Index">Codigo Fuente</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Tipo" asp-action="Index">Tipos de Codigo Fuente</a></li>
+
+                                @*}*@
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                 Catalogos
                             </a>
                             <ul class="dropdown-menu">
                                 @*@if (User.IsInRole(DS.Role_Admin))*@
                                 @*{*@
-								<li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Info General</a></li>
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Configuracion</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Coordinacion" asp-action="Index">Coordinaciones</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Municipios</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Poblaciones</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Sectores</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Colonias</a></li>
                                 @*}*@
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Producto" asp-action="Index">Productos</a></li>
                             </ul>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                 Contenido
