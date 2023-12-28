@@ -21,6 +21,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public ITareaRepositorio Tarea { get; private set; }
         public ICodigoFuenteRepositorio CodigoFuente { get; private set; }
         public ITipoRepositorio Tipo { get; private set; }
+        public IMunicipioRepositorio Municipio { get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -31,9 +32,12 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             Producto = new ProductoRepositorio(_db);
 
             Coordinacion = new CoordinacionRepositorio(_db);
+            Municipio = new MunicipioRepositorio(_db);
+
             Tipo = new TipoRepositorio(_db);
             Tarea = new TareaRepositorio(_db);
             CodigoFuente = new CodigoFuenteRepositorio(_db);
+
             //Producto = new ProductoRepositorio(_db);
             //UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
             //BodegaProducto = new BodegaProductoRepositorio(_db);

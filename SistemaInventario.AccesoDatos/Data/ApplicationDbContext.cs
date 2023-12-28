@@ -20,6 +20,8 @@ namespace SistemaInventario.AccesoDatos.Data
         public DbSet<CodigoFuente> CodigoFuentes { get; set; }
         public DbSet<Tipo> Tipos { get; set; }
 
+        public DbSet<Municipio> Municipios { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
