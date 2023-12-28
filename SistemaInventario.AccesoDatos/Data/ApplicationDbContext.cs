@@ -22,6 +22,8 @@ namespace SistemaInventario.AccesoDatos.Data
 
         public DbSet<Municipio> Municipios { get; set; }
 
+        public DbSet<UsuarioAplicacion> UsuarioAplicacion { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

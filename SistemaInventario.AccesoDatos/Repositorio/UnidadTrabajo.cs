@@ -22,7 +22,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public ICodigoFuenteRepositorio CodigoFuente { get; private set; }
         public ITipoRepositorio Tipo { get; private set; }
         public IMunicipioRepositorio Municipio { get; private set; }
-
+        public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
@@ -37,17 +37,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             Tipo = new TipoRepositorio(_db);
             Tarea = new TareaRepositorio(_db);
             CodigoFuente = new CodigoFuenteRepositorio(_db);
+            UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
 
-            //Producto = new ProductoRepositorio(_db);
-            //UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
-            //BodegaProducto = new BodegaProductoRepositorio(_db);
-            //Inventario = new InventarioRepositorio(_db);
-            //InventarioDetalle = new InventarioDetalleRepositorio(_db);
-            //KardexInventario = new KardexInventarioRepositorio(_db);
-            //Compania = new CompaniaRepositorio(_db);
-            //CarroCompra = new CarroCompraRepositorio(_db);
-            //Orden = new OrdenRepositorio(_db);
-            //OrdenDetalle = new OrdenDetalleRepositorio(_db);
         }
 
         public void Dispose()

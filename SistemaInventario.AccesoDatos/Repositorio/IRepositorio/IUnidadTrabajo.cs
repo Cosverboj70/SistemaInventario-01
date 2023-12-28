@@ -19,7 +19,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         ITipoRepositorio Tipo { get; }
         IMunicipioRepositorio Municipio { get; }
 
-
+        IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
         Task Guardar();
     }
 }
