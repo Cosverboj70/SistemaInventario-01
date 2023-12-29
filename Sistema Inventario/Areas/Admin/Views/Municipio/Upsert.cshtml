@@ -1,0 +1,107 @@
+﻿@model SistemaInventario.Modelos.ViewModels.MunicipioVM
+@using SistemaInventario.Utilidades
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //var titulo==>Variable
+    var titulo = "Crear Nuevo Municipio";
+}
+@*enctype="multipart/form-data"==>Se le indica al form que pasaran archivos fisicos al form(Imagenes)*@
+<form method="post" enctype="multipart/form-data">
+    @if (Model.Municipio.Id != 0)
+    {
+        titulo = "Editar Municipio";
+        @*VARIABLES OCULTAS*@
+        <input asp-for="Municipio.Id" hidden />
+    }
+
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Nombre</label>
+                            <input asp-for="Municipio.Nombre" class="form-control" />
+                            <span asp-validation-for="Municipio.Nombre" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Descripcion</label>
+                            <input asp-for="Municipio.Descripcion" class="form-control" />
+                            <span asp-validation-for="Municipio.Descripcion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-md-6">
+                            <label>Coordinacion</label>
+                            <select asp-for="Municipio.CoordinacionId" asp-items="@Model.CoordinacionLista" class="form-select">
+                                <option disabled selected>-- Seleccione una Coordinacion --</option>
+                            </select>
+                            <span asp-validation-for="Municipio.CoordinacionId" class="text-danger"></span>
+                        </div>
+                     </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Estado</label>
+                            <select asp-for="Municipio.Estado" class="form-select">
+                                <option value="true">Activo</option>
+                                <option value="false">Inactivo</option>
+                            </select>
+                            <span asp-validation-for="Municipio.Estado" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    
+                    <br />
+
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.Municipio.Id != 0)
+                        {
+                            <partial name="_BotonesActualizarYRegresar" model="Model.Municipio.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> Crear</button>
+                            <a asp-action="Index" class="btn btn-success "><i class="bi bi-arrow-return-left"></i> Regresar</a>
+                        }
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/>
+
+    <script>
+
+        //function validarImagen() {
+        //    if (document.getElementById("imagenId").value=="")
+        //    {
+        //        swal("Error", "Seleccione una Imagen!", "error")
+        //        return false;
+        //    }
+        //    return true;
+        //}
+
+    </script>
+
+}

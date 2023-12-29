@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\confirmacion.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\confirmacion.jpg"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\producto\\07c3792b-6af0-4e6e-8218-7ea02d9dc174.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\07c3792b-6af0-4e6e-8218-7ea02d9dc174.JPG"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\producto\\38dc3127-2099-4d75-8a3e-e9f0a70776fd.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\38dc3127-2099-4d75-8a3e-e9f0a70776fd.JPG"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\producto\\8e01377a-03f4-422c-b86f-5c3bfe5a537a.png",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\8e01377a-03f4-422c-b86f-5c3bfe5a537a.png"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\producto\\a7097149-90ba-4761-8e99-5cd132616fd1.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\a7097149-90ba-4761-8e99-5cd132616fd1.JPG"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\imagenes\\producto\\images.zip",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\images.zip"
+    },
+    {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
@@ -29,6 +61,18 @@
       "PackagePath": "staticwebassets\\js\\coordinacion.js"
     },
     {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\marca.js",
+      "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\municipio.js",
+      "PackagePath": "staticwebassets\\js\\municipio.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
+    },
+    {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -39,6 +83,10 @@
     {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\tipo.js",
       "PackagePath": "staticwebassets\\js\\tipo.js"
+    },
+    {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
     },
     {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\lib\\bootstrap\\LICENSE",
