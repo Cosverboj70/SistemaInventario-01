@@ -9,7 +9,7 @@ using System.Data;
 namespace Sistema_Inventario.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    //[Authorize(Roles = DS.Role_Admin + "," + DS.Role_Inventario)]
+    [Authorize(Roles = DS.Role_Admin + "," + DS.Role_Inventario)]
     public class ProductoController : Controller
     {
 

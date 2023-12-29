@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using SistemaInventario.Utilidades
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -34,63 +35,68 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                       @if (User.IsInRole(DS.Role_Admin))
+                        {
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                 Mantenimiento
                             </a>
                             <ul class="dropdown-menu">
-                                @*@if (User.IsInRole(DS.Role_Admin))*@
-                                @*{*@
-								@*<li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Info General</a></li>*@
-                                @*<li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Configuracion</a></li>*@
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Tarea" asp-action="Index">Tareas</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="CodigoFuente" asp-action="Index">Codigo Fuente</a></li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Tipo" asp-action="Index">Tipos de Codigo Fuente</a></li>
 
-                                @*}*@
+                               
                             </ul>
                         </li>
-
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                Catalogos
-                            </a>
-                            <ul class="dropdown-menu">
-                                @*@if (User.IsInRole(DS.Role_Admin))*@
-                                @*{*@
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Coordinacion" asp-action="Index">Coordinaciones</a></li>
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Municipio" asp-action="Index">Municipios</a></li>
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Poblaciones</a></li>
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Sectores</a></li>
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Colonias</a></li>
-                                @*}*@
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                Contenido
-                            </a>
-                            <ul class="dropdown-menu">
-                                @*@if (User.IsInRole(DS.Role_Admin))*@
-                                @*{*@
-                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Bodegas</a></li>
-                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Categorias</a></li>
-                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Marca" asp-action="Index">Marcas</a></li>
-                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Compania</a></li>
-                                @*}*@
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Producto" asp-action="Index">Productos</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                Usuario
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Usuario" asp-action="Index">Usuarios</a></li>
-                            </ul>
-                        </li>
+                        }
+                        @if (User.IsInRole(DS.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Catalogos
+                                </a>
+                                <ul class="dropdown-menu">
+ 
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Coordinacion" asp-action="Index">Coordinaciones</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Municipio" asp-action="Index">Municipios</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Poblaciones</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Sectores</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Colonias</a></li>
+                                
+                                </ul>
+                            </li>
+                        }
+                        @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Inventario))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contenido
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @if (User.IsInRole(DS.Role_Admin))
+                                    {
+                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Bodega" asp-action="Index">Bodegas</a></li>
+                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Categorias</a></li>
+                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Marca" asp-action="Index">Marcas</a></li>
+                                        <li><a class="dropdown-item" asp-area="Admin" asp-controller="Compania" asp-action="Upsert">Compania</a></li>
+                                    }
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Producto" asp-action="Index">Productos</a></li>
+                                </ul>
+                            </li>
+                        }
+                        @if (User.IsInRole(DS.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Usuario
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Usuario" asp-action="Index">Usuarios</a></li>
+                                </ul>
+                            </li>
+                        }
 
                     </ul>
                     <partial name="_LoginPartial" />

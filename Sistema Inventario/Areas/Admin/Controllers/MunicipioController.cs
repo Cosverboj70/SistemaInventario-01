@@ -9,6 +9,7 @@ using System.Data;
 namespace Sistema_Inventario.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]
     //[Authorize(Roles = DS.Role_Admin + "," + DS.Role_Inventario)]
     public class MunicipioController : Controller
     {
