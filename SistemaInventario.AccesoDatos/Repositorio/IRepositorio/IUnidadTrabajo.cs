@@ -20,6 +20,11 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         IMunicipioRepositorio Municipio { get; }
 
         IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
-        Task Guardar();
+		IBodegaProductoRepositorio BodegaProducto { get; }
+		IInventarioRepositorio Inventario { get; }
+		IInventarioDetalleRepositorio InventarioDetalle { get; }
+		IKardexInventarioRepositorio KardexInventario { get; }
+
+		Task Guardar();
     }
 }
