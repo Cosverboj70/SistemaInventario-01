@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Rotativa.AspNetCore;
 //using Rotativa.AspNetCore;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Modelos;
@@ -235,59 +236,59 @@ namespace Sistema_Inventario.Areas.Inventario.Controllers
 			return View(kardexInventarioVM);
 		}
 
-		//public async Task<IActionResult> ImprimirKardex(DateTime fechaInicio, DateTime fechaFinal, int productoId)
-		//{
-		//	KardexInventarioVM kardexInventarioVM = new KardexInventarioVM();
-		//	kardexInventarioVM.Producto = new Producto();
-		//	kardexInventarioVM.Producto = await _unidadTrabajo.Producto.Obtener(productoId);
+		public async Task<IActionResult> ImprimirKardex(string fechaInicio, string fechaFinal, int productoId)
+		{
+			KardexInventarioVM kardexInventarioVM = new KardexInventarioVM();
+			kardexInventarioVM.Producto = new Producto();
+			kardexInventarioVM.Producto = await _unidadTrabajo.Producto.Obtener(productoId);
 
-		//	kardexInventarioVM.FechaInicio = fechaInicio;
-		//	kardexInventarioVM.FechaFinal = fechaFinal;
+			kardexInventarioVM.FechaInicio = DateTime.Parse(fechaInicio);
+			kardexInventarioVM.FechaFinal = DateTime.Parse(fechaFinal);
 
-		//	kardexInventarioVM.KardexInventarioLista = await _unidadTrabajo.KardexInventario.ObtenerTodos(
-		//														   k => k.BodegaProducto.ProductoId == productoId &&
-		//															   (k.FechaRegistro >= kardexInventarioVM.FechaInicio &&
-		//																k.FechaRegistro <= kardexInventarioVM.FechaFinal),
-		//									incluirPropiedades: "BodegaProducto,BodegaProducto.Producto,BodegaProducto.Bodega",
-		//									orderBy: o => o.OrderBy(o => o.FechaRegistro)
-		//		);
+			kardexInventarioVM.KardexInventarioLista = await _unidadTrabajo.KardexInventario.ObtenerTodos(
+																   k => k.BodegaProducto.ProductoId == productoId &&
+																	   (k.FechaRegistro >= kardexInventarioVM.FechaInicio &&
+																		k.FechaRegistro <= kardexInventarioVM.FechaFinal),
+											incluirPropiedades: "BodegaProducto,BodegaProducto.Producto,BodegaProducto.Bodega",
+											orderBy: o => o.OrderBy(o => o.FechaRegistro)
+				);
 
-		//	return new ViewAsPdf("ImprimirKardex", kardexInventarioVM)
-		//	{
-		//		FileName = "KardexProducto.pdf",
-		//		PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
-		//		PageSize = Rotativa.AspNetCore.Options.Size.A4,
-		//		CustomSwitches = "--page-offset 0 --footer-center [page] --footer-font-size 12"
-		//	};
-		//}
+			return new ViewAsPdf("ImprimirKardex", kardexInventarioVM)
+			{
+				FileName = "KardexProducto.pdf",
+				PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+				PageSize = Rotativa.AspNetCore.Options.Size.A4,
+				CustomSwitches = "--page-offset 0 --footer-center [page] --footer-font-size 12"
+			};
+		}
 
-		//public async Task<IActionResult> ImprimirKardexEs(string fechaInicio, string fechaFinal, int productoId)
-		//{
-		//	KardexInventarioVM kardexInventarioVM = new KardexInventarioVM();
-		//	kardexInventarioVM.Producto = new Producto();
-		//	kardexInventarioVM.Producto = await _unidadTrabajo.Producto.Obtener(productoId);
+		public async Task<IActionResult> ImprimirKardexEs(string fechaInicio, string fechaFinal, int productoId)
+		{
+			KardexInventarioVM kardexInventarioVM = new KardexInventarioVM();
+			kardexInventarioVM.Producto = new Producto();
+			kardexInventarioVM.Producto = await _unidadTrabajo.Producto.Obtener(productoId);
 
-		//	var cultureInfo = CultureInfo.CreateSpecificCulture("es-ES");
+			var cultureInfo = CultureInfo.CreateSpecificCulture("es-ES");
 
-		//	kardexInventarioVM.FechaInicio = DateTime.ParseExact(fechaInicio, "dd.MM.yyyy HH:mm:ss", cultureInfo);
-		//	kardexInventarioVM.FechaFinal = DateTime.ParseExact(fechaFinal, "dd.MM.yyyy HH:mm:ss", cultureInfo);
+			kardexInventarioVM.FechaInicio = DateTime.ParseExact(fechaInicio, "dd.MM.yyyy HH:mm:ss", cultureInfo);
+			kardexInventarioVM.FechaFinal = DateTime.ParseExact(fechaFinal, "dd.MM.yyyy HH:mm:ss", cultureInfo);
 
-		//	kardexInventarioVM.KardexInventarioLista = await _unidadTrabajo.KardexInventario.ObtenerTodos(
-		//														   k => k.BodegaProducto.ProductoId == productoId &&
-		//															   (k.FechaRegistro >= kardexInventarioVM.FechaInicio &&
-		//																k.FechaRegistro <= kardexInventarioVM.FechaFinal),
-		//									incluirPropiedades: "BodegaProducto,BodegaProducto.Producto,BodegaProducto.Bodega",
-		//									orderBy: o => o.OrderBy(o => o.FechaRegistro)
-		//		);
+			kardexInventarioVM.KardexInventarioLista = await _unidadTrabajo.KardexInventario.ObtenerTodos(
+																   k => k.BodegaProducto.ProductoId == productoId &&
+																	   (k.FechaRegistro >= kardexInventarioVM.FechaInicio &&
+																		k.FechaRegistro <= kardexInventarioVM.FechaFinal),
+											incluirPropiedades: "BodegaProducto,BodegaProducto.Producto,BodegaProducto.Bodega",
+											orderBy: o => o.OrderBy(o => o.FechaRegistro)
+				);
 
-		//	return new ViewAsPdf("ImprimirKardex", kardexInventarioVM)
-		//	{
-		//		FileName = "KardexProducto.pdf",
-		//		PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
-		//		PageSize = Rotativa.AspNetCore.Options.Size.A4,
-		//		CustomSwitches = "--page-offset 0 --footer-center [page] --footer-font-size 12"
-		//	};
-		//}
+			return new ViewAsPdf("ImprimirKardex", kardexInventarioVM)
+			{
+				FileName = "KardexProducto.pdf",
+				PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+				PageSize = Rotativa.AspNetCore.Options.Size.A4,
+				CustomSwitches = "--page-offset 0 --footer-center [page] --footer-font-size 12"
+			};
+		}
 
 		#region API
 		[HttpGet]
