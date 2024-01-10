@@ -39,7 +39,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             var ordenBD = _db.Ordenes.FirstOrDefault(o => o.Id == id);
             if (ordenBD != null)
             {
-               if(!String.IsNullOrEmpty(sessionId))
+               if(!string.IsNullOrEmpty(sessionId))
                 {
                     ordenBD.SessionId = sessionId;
                 }

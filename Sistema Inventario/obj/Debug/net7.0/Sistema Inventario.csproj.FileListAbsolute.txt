@@ -566,3 +566,4 @@ C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario\bin\Debug\net7.
 C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario\bin\Debug\net7.0\Rotativa\Windows\wkhtmltoimage.exe
 C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario\bin\Debug\net7.0\Rotativa\Windows\wkhtmltopdf.exe
 C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario\bin\Debug\net7.0\Stripe.net.dll
