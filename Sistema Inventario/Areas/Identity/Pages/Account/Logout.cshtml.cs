@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using SistemaInventario.Utilidades;
 
 namespace Sistema_Inventario.Areas.Identity.Pages.Account
 {
@@ -25,6 +26,9 @@ namespace Sistema_Inventario.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
+            //Limpiando la sesion
+            HttpContext.Session.SetInt32(DS.ssCarroCompras, 0);
+
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
             if (returnUrl != null)
