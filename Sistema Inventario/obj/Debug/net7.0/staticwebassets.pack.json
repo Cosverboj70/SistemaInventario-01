@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\js\\municipio.js"
     },
     {
+      "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\orden.js",
+      "PackagePath": "staticwebassets\\js\\orden.js"
+    },
+    {
       "Id": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\producto.js",
       "PackagePath": "staticwebassets\\js\\producto.js"
     },

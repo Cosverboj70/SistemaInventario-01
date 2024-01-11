@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cIKqKou4Y6lwZeHA2hc+ldag27f7GdK+NMpVlFTeSig=",
+  "Hash": "RyHpfNBSG9hKGY10SumYN4+mZ5pjTPoWEM2cnRjhNJM=",
   "Source": "Sistema Inventario",
   "BasePath": "_content/Sistema Inventario",
   "Mode": "Default",
@@ -338,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\municipio.js"
+    },
+    {
+      "Identity": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\orden.js",
+      "SourceId": "Sistema Inventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\",
+      "BasePath": "_content/Sistema Inventario",
+      "RelativePath": "js/orden.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orden.js"
     },
     {
       "Identity": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\wwwroot\\js\\producto.js",
