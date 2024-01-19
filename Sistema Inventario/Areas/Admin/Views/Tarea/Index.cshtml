@@ -9,19 +9,21 @@
     </div>
     <div class="col-lg-6">
         <a class="btn btn-outline-primary" asp-action="Upsert"> <i class="bi bi-plus-square-fill"></i> Crear Nueva Tarea </a>
+        <a class="btn btn-outline-primary" asp-area="" asp-controller="Home" asp-action="Index"> <i class="bi bi-backspace-fill"></i></a>
     </div>
 </div>
 
 <br />
 
 <div class="p-4 border rounded bg-light">
-    <table id="tblDatos" class="table table-responsive table-hover display nowrap" cellspacing="0" width="100%">
+    <table id="tblDatos" class="d-lg-table table-bordered table-striped table-responsive table-hover display nowrap" cellspacing="0" width="100%">
         <thead class="table-dark">
             <tr>
+                <th>Id</th>
                 <th>Nombre</th>
-                <th>Descripcion</th>
+                <th>Web</th>
                 <th>Estado</th>
-                <th></th>
+                <th>Accion</th>
             </tr>
         </thead>
     </table>

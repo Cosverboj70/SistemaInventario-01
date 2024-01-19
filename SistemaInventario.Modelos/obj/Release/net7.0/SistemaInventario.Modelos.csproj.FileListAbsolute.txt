@@ -1,0 +1,15 @@
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\bin\Release\net7.0\SistemaInventario.Modelos.deps.json
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\bin\Release\net7.0\SistemaInventario.Modelos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\bin\Release\net7.0\SistemaInventario.Modelos.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\bin\Release\net7.0\SistemaInventario.Utilidades.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\bin\Release\net7.0\SistemaInventario.Utilidades.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.csproj.AssemblyReference.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.AssemblyInfoInputs.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.AssemblyInfo.cs
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.csproj.CoreCompileInputs.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.csproj.CopyComplete
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\refint\SistemaInventario.Modelos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\SistemaInventario.Modelos.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Modelos\obj\Release\net7.0\ref\SistemaInventario.Modelos.dll

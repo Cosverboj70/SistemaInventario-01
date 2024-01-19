@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZX18Gz4SMuvDQV4/Ov8ybUJwnrmY76zJC3fIJnuPSFztoMhWljxTLRrBeRwKjKlcyLYsxbf/WboOA4fnczwgLg==",
+  "dgSpecHash": "GLPYECsm+F2/i315sUIuLPgR2IM6kARBP/ZhHZ4hsk4fSOcsqWo7f0Exab3MqxHMGRVmK5MYle8egWeCDvrngw==",
   "success": true,
-  "projectFilePath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\Sistema Inventario.csproj",
+  "projectFilePath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\Sistema Inventario\\Sistema Inventario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cverduzco\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\cverduzco\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

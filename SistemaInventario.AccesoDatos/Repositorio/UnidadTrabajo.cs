@@ -35,6 +35,9 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public IOrdenDetalleRepositorio OrdenDetalle { get; private set; }
 
+        public IDatosGeneralesRepositorio DatosGenerales { get; private set; }
+        public IAreaRepositorio Area { get; private set; }
+
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
@@ -58,7 +61,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             CarroCompra = new CarroCompraRepositorio(_db);
             Orden = new OrdenRepositorio(_db);
             OrdenDetalle = new OrdenDetalleRepositorio(_db);
-
+            DatosGenerales = new DatosGeneralesRepositorio(_db);
+            Area = new AreaRepositorio(_db);
         }
 
         public void Dispose()

@@ -9,381 +9,385 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sistema_Inventario
 build_property.RootNamespace = Sistema_Inventario
-build_property.ProjectDir = C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario\
+build_property.ProjectDir = C:\ProySistemas2023\SolucionIventario\SistemaProduccion\Sistema Inventario\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\ProySistemas2023\SolucionIventario\Sistema\Sistema Inventario
+build_property.MSBuildProjectDirectory = C:\ProySistemas2023\SolucionIventario\SistemaProduccion\Sistema Inventario
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Bodega/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Bodega/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9kZWdhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Bodega/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Bodega/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9kZWdhXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Categoria/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Categoria/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Categoria/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/CodigoFuente/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/CodigoFuente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29kaWdvRnVlbnRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/CodigoFuente/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/CodigoFuente/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29kaWdvRnVlbnRlXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Compania/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Compania/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFuaWFcVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Coordinacion/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Coordinacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29vcmRpbmFjaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Coordinacion/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Coordinacion/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29vcmRpbmFjaW9uXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Marca/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/DatosGenerales/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0b3NHZW5lcmFsZXNcVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Marca/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFyY2FcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Marca/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Marca/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFyY2FcVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Municipio/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Municipio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVuaWNpcGlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Municipio/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Municipio/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTXVuaWNpcGlvXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Orden/Detalle.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Orden/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZW5cRGV0YWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Orden/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Orden/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Producto/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Producto/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Producto/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Tarea/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Tarea/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFyZWFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Tarea/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Tarea/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFyZWFcVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Tipo/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Tipo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGlwb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Tipo/Upsert.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Tipo/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGlwb1xVcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/Usuario/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/Error.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Views/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Identity/Views/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Identity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Carro/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Carro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xDYXJyb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Carro/OrdenConfirmacion.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Carro/OrdenConfirmacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xDYXJyb1xPcmRlbkNvbmZpcm1hY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Carro/Proceder.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Carro/Proceder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xDYXJyb1xQcm9jZWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Home/Detalle.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Home/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXERldGFsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Home/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Home/Privacy.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Inventario/DetalleInventario.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Inventario/DetalleInventario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXERldGFsbGVJbnZlbnRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Inventario/ImprimirKardex.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Inventario/ImprimirKardex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEltcHJpbWlyS2FyZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Inventario/Index.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Inventario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Inventario/KardexProducto.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Inventario/KardexProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEthcmRleFByb2R1Y3RvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Inventario/KardexProductoResultado.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Inventario/KardexProductoResultado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEthcmRleFByb2R1Y3RvUmVzdWx0YWRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/Inventario/NuevoInventario.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/Inventario/NuevoInventario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXE51ZXZvSW52ZW50YXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Inventario/Views/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Inventario/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Principal/Views/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Principal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJpbmNpcGFsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Principal/Views/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Principal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJpbmNpcGFsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Tramites/Views/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Tramites/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhbWl0ZXNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Areas/Tramites/Views/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Areas/Tramites/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhbWl0ZXNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/Error.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/_BotonesActualizarYRegresar.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/_BotonesActualizarYRegresar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzQWN0dWFsaXphcllSZWdyZXNhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/_BotonesCrearYRegresar.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/_BotonesCrearYRegresar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzQ3JlYXJZUmVncmVzYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/_LoginPartial.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/_Notificaciones.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/_Notificaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/_ViewImports.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/_ViewStart.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProySistemas2023/SolucionIventario/Sistema/Sistema Inventario/Views/Shared/_Layout.cshtml]
+[C:/ProySistemas2023/SolucionIventario/SistemaProduccion/Sistema Inventario/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9rcdt3mhey

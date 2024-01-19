@@ -24,8 +24,10 @@ function loadDataTable() {
             "url": "/Admin/Tarea/ObtenerTodos"
         },
         "columns": [
-            { "data": "nombre", "width": "20%" },
-            { "data": "descripcion", "width": "40%" },
+            { "data": "id", "width": "5%" },
+            { "data": "nombre", "width": "40%" },
+            { "data": "web", "width": "35%" },
+            //{ "data": "fechacreacion", "width": "40%" },
             {
                 "data": "estado",
                 "render": function (data) {
@@ -35,7 +37,7 @@ function loadDataTable() {
                     else {
                         return "Inactivo";
                     }
-                }, "width": "20%"
+                }, "width": "10%"
             },
             {
                 "data": "id",

@@ -1,0 +1,12 @@
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\bin\Release\net7.0\SistemaInventario.Utilidades.deps.json
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\bin\Release\net7.0\SistemaInventario.Utilidades.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\bin\Release\net7.0\SistemaInventario.Utilidades.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.csproj.AssemblyReference.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.AssemblyInfoInputs.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.AssemblyInfo.cs
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.csproj.CoreCompileInputs.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\refint\SistemaInventario.Utilidades.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\SistemaInventario.Utilidades.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.Utilidades\obj\Release\net7.0\ref\SistemaInventario.Utilidades.dll

@@ -26,6 +26,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             if (tareaBD != null)
             {
                 tareaBD.Nombre = tarea.Nombre;
+                tareaBD.Web = tarea.Web;
                 tareaBD.Descripcion = tarea.Descripcion;
                 tareaBD.Estado = tarea.Estado;
                 _db.SaveChanges();

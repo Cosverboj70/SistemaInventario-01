@@ -34,6 +34,8 @@ namespace SistemaInventario.AccesoDatos.Data
 
         public DbSet<OrdenDetalle> OrdenDetalles { get; set; }
 
+        public DbSet<DatosGenerales> DatosGenerales { get; set; }
+        public DbSet<Area> Areas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

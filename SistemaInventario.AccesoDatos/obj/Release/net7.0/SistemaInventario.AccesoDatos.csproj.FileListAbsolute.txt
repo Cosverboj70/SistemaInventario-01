@@ -1,0 +1,17 @@
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.AccesoDatos.deps.json
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.AccesoDatos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.AccesoDatos.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.Modelos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.Utilidades.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.Modelos.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\bin\Release\net7.0\SistemaInventario.Utilidades.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.csproj.AssemblyReference.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.AssemblyInfoInputs.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.AssemblyInfo.cs
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.csproj.CopyComplete
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\refint\SistemaInventario.AccesoDatos.dll
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\SistemaInventario.AccesoDatos.pdb
+C:\ProySistemas2023\SolucionIventario\SistemaProduccion\SistemaInventario.AccesoDatos\obj\Release\net7.0\ref\SistemaInventario.AccesoDatos.dll

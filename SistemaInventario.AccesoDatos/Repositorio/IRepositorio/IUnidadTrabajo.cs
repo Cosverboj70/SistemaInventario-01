@@ -31,6 +31,9 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         IOrdenDetalleRepositorio OrdenDetalle { get; }
 
+        IDatosGeneralesRepositorio DatosGenerales { get; }
+        IAreaRepositorio Area { get; }
+
         Task Guardar();
     }
 }

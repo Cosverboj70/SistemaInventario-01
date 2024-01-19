@@ -9,6 +9,7 @@
     </div>
     <div class="col-lg-6">
         <a class="btn btn-outline-primary" asp-action="Upsert"> <i class="bi bi-plus-square-fill"></i> Crear Nuevo Municipio </a>
+        <a class="btn btn-outline-primary" asp-area="" asp-controller="Home" asp-action="Index"> <i class="bi bi-backspace-fill"></i></a>
     </div>
 </div>
 
@@ -18,11 +19,11 @@
     <table id="tblDatos" class="table table-responsive table-hover">
         <thead class="table-dark">
             <tr>
+                <th>Id</th>
                 <th>Nombre</th>
-                <th>Descripcion</th>
                 <th>Coordinacion</th>
                 <th>Estado</th>
-                <th></th>
+                <th>Accion</th>
             </tr>
         </thead>
     </table>

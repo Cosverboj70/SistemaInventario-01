@@ -25,6 +25,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             if (codigoFuenteBD != null)
             {
                 codigoFuenteBD.Nombre = codigoFuente.Nombre;
+                codigoFuenteBD.Web = codigoFuente.Web;
                 codigoFuenteBD.Descripcion = codigoFuente.Descripcion;
                 codigoFuenteBD.Estado = codigoFuente.Estado;
                 _db.SaveChanges();

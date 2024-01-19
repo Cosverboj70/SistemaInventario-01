@@ -6,6 +6,31 @@ $(document).ready(function () {
 
 function loadDataTable() {
     datatable = $('#tblDatos').DataTable({
+        dom: 'Bfrltip',
+        buttons: [
+            //'copy', 'csv', 'excel','pdf','print'
+            //'pdf','excel','print'
+            {
+                extend: 'excelHtml5',
+                text: '<i class="bi bi-table"></i> ',
+                titleAttr: 'Exportar a Excel',
+                className: 'btn btn-success'
+            },
+            {
+                extend: 'pdf',
+                text: '<i class="bi bi-file-pdf"></i> ',
+                titleAttr: 'Exportar a Pdf',
+                className: 'btn btn-danger'
+            },
+            {
+                extend: 'print',
+                text: '<i class="bi bi-printer-fill"></i>',
+                titleAttr: 'Imprimir',
+                className: 'btn btn-info'
+            },
+
+        ],
+
         "language": {
             "lengthMenu": "Mostrar _MENU_ Registros Por Pagina",
             "zeroRecords": "Ningun Registro",
@@ -24,9 +49,9 @@ function loadDataTable() {
             "url": "/Admin/Municipio/ObtenerTodos"
         },
         "columns": [
-            { "data": "nombre" }, 
-            { "data": "descripcion" },
-            { "data": "coordinacion.nombre" }, 
+            { "data": "id", "width": "5%" },
+            { "data": "nombre", "width": "35%" },
+            { "data": "coordinacion.nombre", "width": "35%" }, 
             {
                 "data": "estado",
                 "render": function (data) {

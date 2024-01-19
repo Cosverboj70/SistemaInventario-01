@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\Sistema Inventario.csproj": {}
+    "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\Sistema Inventario\\Sistema Inventario.csproj": {}
   },
   "projects": {
-    "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\Sistema Inventario.csproj": {
+    "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\Sistema Inventario\\Sistema Inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\Sistema Inventario.csproj",
+        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\Sistema Inventario\\Sistema Inventario.csproj",
         "projectName": "Sistema Inventario",
-        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\Sistema Inventario.csproj",
+        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\Sistema Inventario\\Sistema Inventario.csproj",
         "packagesPath": "C:\\Users\\cverduzco\\.nuget\\packages\\",
-        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\Sistema Inventario\\obj\\",
+        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\Sistema Inventario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,14 +34,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
-                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
+              "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
               },
-              "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
-                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
               },
-              "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
-                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+    "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
         "projectName": "SistemaInventario.AccesoDatos",
-        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\cverduzco\\.nuget\\packages\\",
-        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.AccesoDatos\\obj\\",
+        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -152,11 +152,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
-                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
               },
-              "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
-                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
               }
             }
           }
@@ -208,14 +208,14 @@
         }
       }
     },
-    "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+    "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
         "projectName": "SistemaInventario.Modelos",
-        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
         "packagesPath": "C:\\Users\\cverduzco\\.nuget\\packages\\",
-        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Modelos\\obj\\",
+        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -238,8 +238,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
-                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
               }
             }
           }
@@ -283,14 +283,14 @@
         }
       }
     },
-    "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+    "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectUniqueName": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
         "projectName": "SistemaInventario.Utilidades",
-        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
         "packagesPath": "C:\\Users\\cverduzco\\.nuget\\packages\\",
-        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\Sistema\\SistemaInventario.Utilidades\\obj\\",
+        "outputPath": "C:\\ProySistemas2023\\SolucionIventario\\SistemaProduccion\\SistemaInventario.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -27,7 +27,7 @@
         </div>
 
         <div class="row mb-2 mt-2">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-8">
                 <label>Nombre</label>
                 <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre del Codigo Fuente" id="nombre" />
                 @*//span==>Lo que hace es que si el nombre es requerido y no se llena, se muestra el error*@
@@ -35,14 +35,23 @@
             </div>
         </div>
         <div class="row mb-2 mt-2">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-8">
+                <label>Pagina Web</label>
+                <input type="text" asp-for="Web" class="form-control" placeholder="Pagina Web donde esta el Codigo" id="nombre" />
+                @*//span==>Lo que hace es que si el nombre es requerido y no se llena, se muestra el error*@
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-8">
                 <label>Descripcion</label>
-                <input type="text" asp-for="Descripcion" class="form-control" placeholder="Descripcion del Codigo Fuente" />
+                <textarea asp-for="Descripcion" class="form-control" placeholder="Descripcion del Codigo Fuente" style="height:400px;"></textarea>
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
         </div>
         <div class="row mb-2 mt-2">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-8">
                 <label>Estado</label>
                 <select asp-for="Estado" class="form-select">
                     <option value=true>Activo</option>
@@ -98,5 +107,14 @@
 
         }
     </script>
+    <script src="https://cdn.tiny.cloud/1/f3i8z3fjywrmghji43tyderv5lqqj6tx2jro8js9og6pmmhc/tinymce/5/tinymce.min.js"> </script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+    </script>
 
 }
+

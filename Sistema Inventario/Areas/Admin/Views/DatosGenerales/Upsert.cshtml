@@ -1,0 +1,122 @@
+﻿@model SistemaInventario.Modelos.DatosGenerales
+
+@{
+    ViewData["Title"] = "Upsert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post">
+    <div class="container" style="padding-bottom:0.5rem;">
+        <div class="row p-1 border-0">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+
+        @if (Model.Id != 0)
+        {
+            <input type="hidden" asp-for="Id" />
+        }
+
+
+        <div class="col-12 border-bottom p-1">
+            <h2 class="text-primary">Informacion General de la Comision<i class="fas fa-user-tie"></i></h2>
+        </div>
+
+        <div class="form-group mb-2" style="padding-top:14px;">
+            <label>Titular</label>
+            <input type="text" asp-for="Titular" class="form-control" placeholder="Nombre" />
+            <span asp-validation-for="Titular" class="text-danger"></span>
+        </div>
+
+
+        <div class="form-group mb-2" style="padding-top:14px;">
+            <label>Puesto del Comisionado</label>
+            <textarea type="text" asp-for="Puesto" class="form-control" placeholder="Descripcion" rows=2></textarea>
+            <span asp-validation-for="Puesto" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-2">
+            <div class="form-group col-md-7">
+                <label>Direccion de la Comisión</label>
+                <input type="text" asp-for="Direccion" class="form-control" placeholder="Calle y Numero" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-5">
+                <label>Colonia</label>
+                <input type="text" asp-for="Colonia" class="form-control" placeholder="Colonia" />
+                <span asp-validation-for="Colonia" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+			<div class="form-group col-md-7">
+				<label>Correo Electronico</label>
+				<input type="text" asp-for="Email" class="form-control" placeholder="Correo de la Comision" />
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+
+            <div class="form-group col-md-5">
+                <label>Telefonos</label>
+                <input type="text" asp-for="Telefonos" class="form-control" placeholder="Telefonos" />
+                <span asp-validation-for="Telefonos" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="form-group col-md-3">
+                <label>Ssiglas Comisionado</label>
+                <input type="text" asp-for="SiglasCom" class="form-control" placeholder="Siglas Comisionado" />
+                <span asp-validation-for="SiglasCom" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label>Siglas Operacion</label>
+                <input type="text" asp-for="SiglasOp" class="form-control" placeholder="Siglas Operacion Sanitaria" />
+                <span asp-validation-for="SiglasOp" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label>Siglas Insumos</label>
+                <input type="text" asp-for="SiglasIns" class="form-control" placeholder="Siglas Insumos para la Salud y Regulacion de Servicios de Salud" />
+                <span asp-validation-for="SiglasIns" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label>Siglas Evidencia</label>
+                <input type="text" asp-for="SiglasEvi" class="form-control" placeholder="Siglas Evidencia y Manejo de Riesgos" />
+                <span asp-validation-for="SiglasEvi" class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Especificar si se mostraran registros Activos o desactivados</label>
+                <select asp-for="Estado" class="form-select">
+                    <option value=1>Activos</option>
+                    <option value=2>Inactivos</option>
+                    <option value=3>Mostrar Todos</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+        </div>
+        <br />
+
+        <div class="row mt-4">
+            <div class="col-3">
+                <a asp-area="inventario" asp-controller="Home" asp-action="Index">Regresar al menu principal</a>
+            </div>
+            <div class="col-5 offset-1">
+                <button type="submit" class="btn btn-primary  w-75 form-control">Actualizar Datos Generales <i class="bi bi-arrow-right-circle-fill"></i></button>
+                &nbsp;
+            </div>
+        </div>
+
+
+
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
